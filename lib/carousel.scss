@@ -35,6 +35,7 @@ carousel minimal settings --- FIGURING OUT MINIMUM CSS REQUIREMENTS, WHICH CSS T
     padding: 20px;
     min-height: 200px;
     min-width: 400px;
+    margin: 20px;
 }
 .carousel-item:nth-child(odd) {
     background: palevioletred;
