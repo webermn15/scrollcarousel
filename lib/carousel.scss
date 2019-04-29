@@ -1,33 +1,36 @@
 /*
 = = = 
-car 3 --- FIGURING OUT MINIMUM CSS REQUIREMENTS, WHICH CSS TO DECOUPLE & ALLOW FOR USERS TO PASS THEIR OWN CLASSES
+carousel minimal settings --- FIGURING OUT MINIMUM CSS REQUIREMENTS, WHICH CSS TO DECOUPLE & ALLOW FOR USERS TO PASS THEIR OWN CLASSES
 = = =
 */
-.car3 {
+.container {
     border: 1px solid black;
     position: relative;
+    max-width: 700px;
+    margin: 0 auto;
 }
-.car3_carousel {
+.carousel {
     -ms-overflow-style: none;
     scrollbar-width: none;
     display: flex;
     overflow-x: scroll;
 }
-.car3_carousel::-webkit-scrollbar {
+.carousel::-webkit-scrollbar {
     display: none;
 }
-.car3_item {
+
+// carousel item classes for testing
+
+.carousel-item {
     padding: 2rem;
-}
-.car3_item:nth-child(odd) {
-    border: 1px solid palevioletred;
     min-height: 200px;
     min-width: 400px;
 }
-.car3_item:nth-child(even) {
-    border: 1px solid palegoldenrod;
-    min-height: 200px;
-    min-width: 400px;
+.carousel-item:nth-child(odd) {
+    background: palevioletred;
+}
+.carousel-item:nth-child(even) {
+    background: palegoldenrod;
 }
 
 /* 
