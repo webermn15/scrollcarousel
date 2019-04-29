@@ -12,6 +12,7 @@ Ongoing issues to fix & features to add
 **fixed improper child left bounds calculations in the viewportChangeHandler function, implemented align checking for indicators**
 * Borders create minor offset issues, current working fix is a little hacky (add additional width of a couple pixels on some checks)
 * ~~Prev arrow button broken atm~~ **fixed, was broken only for centered alignment due to incorrect arithmatic symbol**
+* Create workaround for the `overflow: scroll` [right padding problem](https://blog.alexandergottlieb.com/overflow-scroll-and-the-right-padding-problem-a-css-only-solution-6d442915b3f4)
 
 #### Features todo
 * Extract API for passing custom button classes
