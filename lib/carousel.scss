@@ -72,12 +72,14 @@ button classes
     top: 0;
     right: 0;
     bottom: 0;
+    z-index: 10;
 }
 .wc__prev-button {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
+    z-index: 10;
 }
 
 /* indicator buttons */
@@ -100,6 +102,6 @@ button classes
     transition: 0.3s background ease-in-out;
 
     &:focus, &:hover {
-            background: rgba(0, 0, 0, 0.75); 
+        background: rgba(0, 0, 0, 0.75); 
     }
 }

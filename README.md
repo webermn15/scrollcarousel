@@ -13,7 +13,7 @@ Ongoing issues to fix & features to add
 * Borders create minor offset issues, current working fix is a little hacky (add additional width of a couple pixels on some checks)
 * ~~Prev arrow button broken atm~~ **fixed, was broken only for centered alignment due to incorrect arithmatic symbol**
 * Create workaround for the `overflow: scroll` [right padding problem](https://blog.alexandergottlieb.com/overflow-scroll-and-the-right-padding-problem-a-css-only-solution-6d442915b3f4) 
-**<-- this fix works; need to pare back css to base necessary styles**
+**<-- this fix works; however, for snapAlignment: right, since its using this pseudoelement fix instead of margin there needs to be a way to calculate the offset it creates when aligning the snap**
 
 #### Features todo
 * Extract API for passing custom button classes
