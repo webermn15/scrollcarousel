@@ -1,3 +1,13 @@
+// test purposes
+* {
+    box-sizing: border-box;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
 /*
 = = = 
 carousel minimal settings --- FIGURING OUT MINIMUM CSS REQUIREMENTS, WHICH CSS TO DECOUPLE & ALLOW FOR USERS TO PASS THEIR OWN CLASSES
@@ -22,7 +32,7 @@ carousel minimal settings --- FIGURING OUT MINIMUM CSS REQUIREMENTS, WHICH CSS T
 // carousel item classes for testing
 
 .carousel-item {
-    padding: 2rem;
+    padding: 20px;
     min-height: 200px;
     min-width: 400px;
 }
@@ -70,7 +80,8 @@ button classes
     left: calc(50% - 250px);
 }
 .wc__indicator-button {
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
     border: none;
     border-radius: 50%;
     min-width: 30px;
@@ -79,6 +90,6 @@ button classes
     transition: 0.3s background ease-in-out;
 
     &:focus, &:hover {
-            background: rgba(0, 0, 0, 0.5); 
+            background: rgba(0, 0, 0, 0.75); 
     }
 }
