@@ -16,3 +16,4 @@ Ongoing issues to fix & features to add
 * Extract API for passing custom button classes
 * Dynamically add theme classes on instantiation
 * Keep it as customizable as possible!
+* Write API documentation
