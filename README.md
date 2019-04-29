@@ -1,6 +1,11 @@
 # Scroll Carousel
 > pre-alpha not entirely working yet not released :)
 
+## Documentation (WIP!!)
+Please visit [the wiki](https://github.com/webermn15/scrollcarousel/wiki) for information on getting up and running. 
+
+[Click here for API Documentation](https://github.com/webermn15/scrollcarousel/wiki/API-Documentation)
+
 Ongoing issues to fix & features to add
 -------
 #### Bugs
@@ -20,3 +25,4 @@ Ongoing issues to fix & features to add
 * Dynamically add theme classes on instantiation
 * Keep it as customizable as possible!
 * Write API documentation
+* Change everything from Weber Carousel to Scroll Carousel
