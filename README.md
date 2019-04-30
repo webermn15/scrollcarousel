@@ -1,4 +1,5 @@
 # Scroll Carousel
+#### A jQuery plugin
 > pre-alpha not entirely working yet not released :)
 
 ## Documentation (WIP!!)
