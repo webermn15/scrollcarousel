@@ -32,6 +32,7 @@ carousel minimal settings --- FIGURING OUT MINIMUM CSS REQUIREMENTS, WHICH CSS T
 // carousel item classes for testing
 
 .carousel-item {
+    display: block;
     padding: 20px;
     min-height: 200px;
     min-width: 400px;
