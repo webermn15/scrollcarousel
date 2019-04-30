@@ -1,4 +1,4 @@
-`# Scroll Carousel
+# Scroll Carousel
 > pre-alpha not entirely working yet not released :)
 
 ## Documentation (WIP!!)
