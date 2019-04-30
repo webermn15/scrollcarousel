@@ -2,7 +2,7 @@
 > pre-alpha not entirely working yet not released :)
 
 ## Documentation (WIP!!)
-Please visit [the wiki](https://github.com/webermn15/scrollcarousel/wiki) for information on getting up and running. 
+[Please visit the wiki](https://github.com/webermn15/scrollcarousel/wiki) for information on getting up and running. 
 
 [Click here for API Documentation](https://github.com/webermn15/scrollcarousel/wiki/API-Documentation)
 
@@ -24,8 +24,8 @@ Ongoing issues to fix & features to add
 
 #### Features todo
 * Extract API for passing custom button classes
-* Dynamically add theme classes on instantiation
+* Dynamically add theme classes on instantiation (bad? need those classes for it to work without js)
 * Provide optional splitting of background from items (item takes up full width of carousel, bg images fade out/in on item change)
 * Keep it as customizable as possible!
-* Write API documentation
+* Write API documentation (WIP)
 * Add clickable overlay to any visible but unaligned items that allows you to click an item and center it
