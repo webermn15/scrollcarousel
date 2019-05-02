@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.sc__container {
+	border: 1px solid black;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/*
+= = = = =
+Example styles for carousel items
+
+@note: In the documentation I note an issue that using overflow-x: scroll; causes when attemping to 
+apply padding/margin at the end of the carousel element. The .sc__carousel-item class below implements 
+this fix- read more about it at https://github.com/webermn15/scrollcarousel/wiki#overflow-x-scroll-right-padding-issue
+= = = = =
+*/
+.sc__carousel-item {
+	padding: 20px;
+	min-height: 200px;
+	min-width: 400px;
+	margin: 20px 0 20px 20px;
+	position: relative;
+}
+.sc__carousel-item:after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: -20px;
+	width: 20px;
+	height: 1px;
+}
+/* alternating colours for clarity of example */
+.sc__carousel-item:nth-child(odd) {
+	background: palevioletred;
+}
+.sc__carousel-item:nth-child(even) {
+	background: palegoldenrod;
+}
