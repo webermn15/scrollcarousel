@@ -23,7 +23,7 @@ Ongoing issues to fix & features to add
 * ~~Change everything from Weber Carousel to Scroll Carousel~~
 
 #### Features todo
-* Extract API for passing custom button classes
+* Extract API for passing custom button classes or text
 * Dynamically add theme classes on instantiation (bad? need those classes for it to work without js)
 * Provide optional splitting of background from items (item takes up full width of carousel, bg images fade out/in on item change)
 * Keep it as customizable as possible!
